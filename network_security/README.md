@@ -68,3 +68,5 @@ Now, running the new scan with `sudo netdiscover -i eth0 -r 192.168.1.0/24`, the
  192.168.1.1     08:00:27:0d:ed:04      1      60  PCS Systemtechnik GmbH                          
  192.168.1.104   08:00:27:1e:6b:cc      1      60  PCS Systemtechnik GmbH    
 ```
+
+By having a dedicated LAN for customers, this company could avoid an attacker knowing all their connected devices.
