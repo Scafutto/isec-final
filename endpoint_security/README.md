@@ -1,4 +1,4 @@
-# Endpoint
+# Endpoint Security
 For this scenario, a network administrator is negligent with ssh security measures - he likes easy to remember password and definitely never uses keys.
 
 # Red Team
@@ -23,7 +23,7 @@ The best way to harden your server when it comes to passwords is to ensure they 
 
 For this case, however, our approach will be to only allow authentication with keys, instead of passwords.
 
-To do so, let's edit the /// file `/etc/ssh/sshd_conf`. Change or add these lines:
+To do so, let's edit the sshd configuration file `/etc/ssh/sshd_conf`. Change or add this line:
 
 ```
 PasswordAuthentication no

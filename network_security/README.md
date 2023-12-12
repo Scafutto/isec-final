@@ -1,5 +1,4 @@
 # Network Security
-
 For this scenario, let's say a company provides internet access to clients while inside their business. 
 
 # Red Team
